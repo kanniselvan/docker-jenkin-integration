@@ -13,7 +13,7 @@ public class HomeController {
 		return "Welcome to springboot with docker";
 		
 	}
-	@GetMapping("/welcome")
+	@GetMapping("/message")
 	public String welcome() {
 		return "Welcome to springboot with docker and Jenkin";
 		
