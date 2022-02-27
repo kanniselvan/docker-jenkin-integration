@@ -15,7 +15,7 @@ class SpringbootWithDocketApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Test class executed");
-		assertEquals(true, true);
+		assertEquals(false, true);
 	}
 
 }
